@@ -735,11 +735,12 @@
         align-items: center;
     }
     .contact-p{
-        width: 100%;
+        width: 95%;
         height: auto;
-        font-size: 17px;
-        padding: 0%;
+        font-size: 15px;
+        padding: 3%;
         margin: 0;
+        color: white;
     }
     .div-form{
         width: 100%;
