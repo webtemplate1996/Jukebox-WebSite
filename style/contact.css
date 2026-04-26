@@ -1,0 +1,111 @@
+
+.contact-hook{
+    width: 100%;
+    height: auto;
+    /* padding: 5px; */
+    background: linear-gradient(140deg, rgba(255, 170, 0, 0.532) 0%, rgba(161, 2, 161, 0.518) 100%);
+}
+
+.contact-p{
+    width: 60%;
+    height: auto;
+    text-align: center;
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    margin: 0 auto;
+    padding: 50px;
+    text-shadow: 1px 1px 1px purple;
+    box-shadow: 3px 3px 3px 5px black;
+    border-radius: 5px;
+    background: linear-gradient(1deg, rgba(255, 170, 0, 0.532) 0%, rgba(161, 2, 161, 0.518) 100%);
+}
+
+.div-form{
+    width: 96%;
+    height: auto;
+    display: flex;  
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background: linear-gradient(1deg, rgba(255, 170, 0, 0.532) 0%, rgba(161, 2, 161, 0.518) 100%);
+}
+.event-form{
+    width: 60%;
+    height: auto;
+    padding: 30px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: 1px solid black;
+    background: rgba(16, 16, 16, 0.178);
+    border-radius: 20px;
+    box-shadow: 1px 1px 1px 6px rgba(255, 255, 255, 0.285);
+
+}
+.form-group{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+label{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.checkbox-group{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+    /* border: 1px solid black; */
+}
+.box{
+    width: 30%;
+    height: auto;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+.box2{
+    width: 20px;
+    height: 20px;
+    
+    margin-right: 10px;
+}
+
+/* #eventDate,#guestCount,
+#theme,#catering,#eventDetails,#email
+{
+    width: 40%;
+    height: 30px;
+} */
+#eventDetails{
+    resize: none;
+    height: 150px;
+}
+.btn{
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 10px;
+}

@@ -1,0 +1,29 @@
+
+.nav_bar {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav_bar a {
+    position: relative;
+    text-decoration: none;
+    /* color: black; */
+    /* font-size: 18px; */
+}
+
+.nav_bar a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0;
+    height: 2px;
+    background-color: black;
+    transition: width 0.5s ease;
+}
+
+.nav_bar a:hover::after {
+    width: 100%;
+}
+
