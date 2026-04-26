@@ -638,6 +638,8 @@
         height: auto;
     }
     .learn-more{
+        width: 300px;
+        height: auto;
         padding: 5px;
         font-size: 25px;
         text-align: center;
@@ -898,6 +900,8 @@
         height: auto;
     }
     .learn-more{
+        width: 300px;
+        height: auto;
         padding: 5px;
         font-size: 25px;
         text-align: center;
@@ -1156,8 +1160,10 @@
         height: auto;
     }
     .learn-more{
+        width: 300px;
+        height: auto;
         padding: 5px;
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -1416,8 +1422,10 @@
         height: auto;
     }
     .learn-more{
+        width: 200px;
+        height: auto;
         padding: 5px;
-        font-size: 25px;
+        font-size: 20px;
         text-align: center;
     }
 
