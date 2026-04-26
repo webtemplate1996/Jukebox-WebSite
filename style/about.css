@@ -9,6 +9,22 @@
     gap: 30px;
 }
 
+.ul-about{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+.li-about{
+    width: 90%;
+    height: auto;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+}
 .p-about{
     width: 40%;
     font-size: 30px;
